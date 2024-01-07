@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #F7F7FF;
+}
+.active {
+  background-color: #F4F5AC;
+  border-radius: 4px;
+}
+.MuiButtonBase-root {
+  min-height: 40px !important;
+  height: 40px !important;
+}
+.MuiPaper-root::before{
+  background-color: white !important;
+}
